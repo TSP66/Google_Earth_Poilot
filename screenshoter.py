@@ -19,7 +19,7 @@ def get_dimensions(test):
 
 def take_shot(number):
     myScreenshot = pyautogui.screenshot()
-    n = r'Shots/' + str(number) + '.bmp'
+    n = r'Shots/' + str(number) + '.png'
     myScreenshot.save(n)
 
 

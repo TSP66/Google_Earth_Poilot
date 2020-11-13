@@ -4,9 +4,9 @@ import screenshoter
 
 
 
-def get_data(number):
+def get_data(location):
     screenshoter.take_shot(number)
-    path = "Shots/"+str(number)+".bmp"
+    path = location
     image = imageio.imread(path)
     return image
 
